@@ -12,8 +12,19 @@ public class main {
 
         ChromeDriver driver = new ChromeDriver();
                 driver.get ("https://allo.ua");
-        WebElement user = driver.findElement(By.xpath("//button [@aria-label='Профіль']"));
-        user.click();
+        WebElement test1 = driver.findElement(By.xpath("//div[@class='ct-button']"));
+                test1.click();
+                WebElement test2 = driver.findElement(By.xpath("//*[@id=\"__layout\"]/div/header/div[1]/div[2]/div[2]/div[2]/div/ul/li[1]/a"));
+                test2.click();
+                WebElement test3 = driver.findElement(By.xpath("//li[@class='portal-card__link-container'][1]"));
+                test3.click();
+                WebElement test4 = driver.findElement(By.xpath("//button[text()='Купити'][1]"));
+                test4.click();
+
+
+
+
+
         }
 
     }
