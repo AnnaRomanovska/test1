@@ -13,10 +13,10 @@ public class main {
 
         ChromeDriver driver = new ChromeDriver();
                 driver.get ("https://allo.ua");
-        WebElement test1 = driver.findElement(By.cssSelector("#search-form__input"));
-             test1.sendKeys("Xiaomi", Keys.ENTER);
-        WebElement test4 = driver.findElement(By.xpath("//button[text()='Купити'][1]"));
-             test4.click();
+        WebElement test2 = driver.findElement(By.cssSelector("#search-form__input"));
+             test2.sendKeys("Xiaomi", Keys.ENTER);
+        WebElement test3 = driver.findElement(By.xpath("//button[text()='Купити'][1]"));
+             test3.click();
 
 
 
