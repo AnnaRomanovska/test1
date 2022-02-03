@@ -20,7 +20,12 @@
         <version>${selenium.version}</version>
 
     </dependency>
-
+    <dependency>
+        <groupId>com.codeborne</groupId>
+        <artifactId>selenide</artifactId>
+        <version>6.2.0</version>
+        <scope>test</scope>
+    </dependency>
 </dependencies>
 
 
